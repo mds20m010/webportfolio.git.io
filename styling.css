@@ -1,0 +1,114 @@
+/*
+Body
+Give the body element a relative position for the scrollspy to work.
+Add a font family to the whole page
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+    position: relative;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+body video#bgvideo{
+    position: fixed;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -100;
+}
+#home h1{
+    margin-top: 50px;
+}
+#home h2{
+    margin-top: 50px;
+}
+
+/*
+Video
+Set the video as background, make it fixed.
+Make sure it appears behind all elements.
+Make it spread the whole webpage
+
+Video doesnot work in small devices
+Hide the video and set picture as background (use media queries)
+Make it spread across the whole webpage
+
+
+
+Style the Home section and elements inside it
+reduce the margin-botton and its hover state
+*/
+/*
+#home
+Style the bout section
+Add padding-top so that the nav link is active before the carousel hits the top border of the page
+Limits its width in big devices to 1000px
+Make headings bold and set dimensions of the pictures
+
+Style the promise section
+Add padding-top for early activation of nav link.
+Set the width of the carousel and center it
+Set the height of pictures and center them inside the carousel caption under the pictures
+
+Style the pictures and nav-brand for different screens
+
+Style the footer
+
+
+Style the navigation bar using a navbar css generator
+*/
+
+
+
+
+
+
+.mycontent {
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    padding: 150px 100px;
+}
+
+
+
+.btn {
+    font-size: 20px;
+    padding: 8px 20px;
+}
+
+#icons {
+    padding: 20px 0px 0px 30px;
+    cursor: pointer;
+}
+
+
+
+#about {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+#about h1{
+    font-weight: bold;
+}
+#about h2{
+    font-weight: bold;
+}
+#about h4{
+    font-weight: bold;
+}
+
+
+
